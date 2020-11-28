@@ -57,3 +57,7 @@ export PATH="/usr/local/opt/bzip2/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/bzip2/lib"
 export CPPFLAGS="-I/usr/local/opt/bzip2/include"
 
+## === Add Sublime to Path === ##
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
+
