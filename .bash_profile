@@ -6,6 +6,8 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 #Colorizing Bash Prompt: generated from http://bashrcgenerator.com:
 export PS1="\[\033[38;5;11m\]\u\[$(tput sgr0)\]@\h:\[$(tput sgr0)\]\[\033[38;5;6m\][\w]\[$(tput sgr0)\]: \[$(tput sgr0)\]"
 
+## == Porter == ##
+export PATH="$PATH:~/.porter"
 
 ## === Java Things === ##
 #Find OpenJDK
